@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 160
+exclude = .git,__pycache__,build,dist,.venv
+per-file-ignores =
+    # Allow unused imports in __init__.py files
+    __init__.py: F401
+    # Allow missing docstrings in tests
+    tests/*: D100,D101,D102,D103
+extend-ignore =
+    # Black handles line breaks after binary operators differently than E501
+    W503
