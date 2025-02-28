@@ -8,6 +8,21 @@ This is a python template for a FastAPI service. This template includes things s
 
 Currently, this template is version 0.1.0 so things may not all work fully as expected but any suggestions are welcome!
 
+## Project Renaming
+
+To use this template for your own project, you can rename all instances of "fastapi-template" to your project name using the provided script:
+
+```bash
+poetry run rename <new-project-name-in-kebab-case>
+```
+
+This will automatically rename all instances of:
+- `fastapi-template` (kebab-case)
+- `fastapi_template` (snake_case)
+- `FastAPI Template` (title case)
+
+**Note:** This script will currently break if you go from a name with a single word to a name with multiple words.
+
 ## Project Structure
 
 This project follows the src layout pattern for Python packages:

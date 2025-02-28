@@ -1,1 +1,1 @@
-"""API package for BRG."""
+"""API package for FastAPI Template."""
